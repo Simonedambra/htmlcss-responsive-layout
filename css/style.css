@@ -35,11 +35,13 @@ header {
     margin: 0 auto;
 }
 
-#jumbo .col {
-    width: 90%;
+.col {
+    width: 100%;
     height: 200px;
-    margin: 2rem 0;
+    margin: 2rem 0rem;
+    margin: 10px;
 }
+
 
 /* classi di colore */
 .bg-blue {
@@ -60,6 +62,16 @@ header {
 
 /* fine classi colori */
 /* query */
+@media screen and (min-width:480px) {
+    #jumbo .col:first-child {
+        width: calc(100%/3 * 2 - 20px);
+    }
+
+    #jumbo .col {
+        width: calc(100%/3 - 20px);
+    }
+}
+
 @media screen and (min-width:768px) {
     .menu {
         display: none;
@@ -69,6 +81,11 @@ header {
         display: inline-block;
     }
 
+    #violet-section .col {
+        width: calc(100%/2 - 20px);
+    }
+
 }
+
 
 /* fine query */
