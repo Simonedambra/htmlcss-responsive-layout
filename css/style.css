@@ -70,6 +70,10 @@ header {
     #jumbo .col {
         width: calc(100%/3 - 20px);
     }
+
+    #violet-section-2 .col {
+        width: calc(100%/2 - 20px);
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -85,7 +89,12 @@ header {
         width: calc(100%/2 - 20px);
     }
 
+    #violet-section-2 .col {
+        width: calc(100%/3 - 20px);
+    }
 }
+
+
 
 
 /* fine query */
