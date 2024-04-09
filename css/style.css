@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0084fd;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+}
