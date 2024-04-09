@@ -12,11 +12,63 @@ header {
     display: none;
 }
 
+/* inizio classi di utility */
 .space-between {
     display: flex;
     justify-content: space-between;
 }
 
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.border-20 {
+    border-radius: 20px;
+}
+
+/* fine classi di utility */
 .container {
     max-width: 1200px;
+    margin: 0 auto;
 }
+
+#jumbo .col {
+    width: 90%;
+    height: 200px;
+    margin: 2rem 0;
+}
+
+/* classi di colore */
+.bg-blue {
+    background-color: #0084fd
+}
+
+.bg-lightblue {
+    background-color: #b5ddff;
+}
+
+.bg-lightviolet {
+    background-color: #9792e4;
+}
+
+.bg-yellow {
+    background-color: #fdc15f;
+}
+
+/* fine classi colori */
+/* query */
+@media screen and (min-width:768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: inline-block;
+    }
+
+}
+
+/* fine query */
