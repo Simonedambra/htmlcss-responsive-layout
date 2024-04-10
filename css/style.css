@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 header {
     background-color: #0084fd;
 }
@@ -25,8 +29,26 @@ header {
 
 }
 
+.justify-content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .border-20 {
     border-radius: 20px;
+}
+
+.img-space {
+    margin: 0 auto;
+    background-image: url(../img/phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.icon-size {
+    font-size: 70px;
 }
 
 /* fine classi di utility */
@@ -48,11 +70,34 @@ header {
 
 .col {
     width: 100%;
-    height: 200px;
     margin: 2rem 0rem;
     margin: 10px;
 }
 
+/* margin class */
+.mg15 {
+    margin: 15px 0px;
+}
+
+/* classi di padding */
+.pd15-0 {
+    padding: 0px 0px 15px 0px;
+}
+
+/* classi di text */
+.text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* classi di font/font-size */
+.font-25 {
+    font-size: 25px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
 
 /* classi di colore */
 .bg-blue {
@@ -73,6 +118,15 @@ header {
 
 .bg-black {
     background-color: #333333;
+}
+
+/* text color */
+.color-blue {
+    color: #0084fd;
+}
+
+.color-lightblack {
+    color: #5a6e7f;
 }
 
 /* fine classi colori */
@@ -120,8 +174,5 @@ header {
         width: calc(100%/3 - 20px);
     }
 }
-
-
-
 
 /* fine query */
