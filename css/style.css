@@ -10,6 +10,7 @@ body {
 
 header {
     background-color: #0084fd;
+    padding: 0px 30px;
 }
 
 .menu-desktop {
@@ -19,12 +20,33 @@ header {
 header ul {
     list-style-type: none;
     display: flex;
-    padding: 10px 0px;
+    align-items: center;
+
 }
 
 header li {
-    margin: 0px 10px;
+    margin: 0px 0px 0px 30px;
+
+
 }
+
+header a {
+    text-decoration: none;
+    color: #fff;
+
+
+
+}
+
+header button {
+    border: none;
+    padding: 10px 10px;
+    color: black;
+    border-radius: 50px;
+
+}
+
+
 
 /* inizio classi di utility */
 .space-between {
@@ -64,6 +86,7 @@ header li {
 
 .border-50 {
     border-radius: 50px;
+    padding: 5px 10px 15px 10px;
 }
 
 
@@ -109,6 +132,8 @@ header li {
     width: 250px;
 }
 
+/* fine violet section */
+
 /* profiles  */
 .circle-1 {
     background-image: url(../img/testimonial1.jpg);
@@ -148,7 +173,8 @@ header li {
 
 }
 
-/* sezione finale prima di footer */
+/* fine profiles */
+/* sezione info */
 .circle-4 {
     position: relative;
     background-image: url(../img/about.jpg);
@@ -170,6 +196,7 @@ header li {
 }
 
 /* fine classi di utility */
+/* container */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -177,7 +204,6 @@ header li {
 
 .container-footer {
     width: 100%;
-    height: 30vh;
 }
 
 .container-small {
@@ -198,6 +224,18 @@ header li {
     margin: 10px;
 }
 
+/* fine container */
+/* footer */
+.container-footer button {
+    font-size: 25px;
+    color: #9792e4;
+    padding: 30px 55px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 30px 0px;
+    border: none;
+}
+
 /* margin class */
 .mg15 {
     margin: 15px 0px;
@@ -212,11 +250,26 @@ header li {
     padding: 0px 0px 15px 0px;
 }
 
+.pd15 {
+    padding: 15px 0px;
+}
+
 .pd50 {
     padding: 50px 0px;
 }
 
 /* button */
+#jumbo button {
+    background-color: #0084fd;
+    color: #fff;
+    padding: 10px 55px;
+    border: none;
+    margin: 20px 0px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
 .violet-button {
     background-color: #9792e4;
     color: #fff;
@@ -225,13 +278,14 @@ header li {
     margin: 20px 0px;
     font-size: 25px;
     border-radius: 50px;
+    font-weight: 700;
 
 }
 
 .violet-button-2 {
     background-color: #9792e4;
     color: #fff;
-    padding: 10px;
+    padding: 10px 15px;
     border: none;
     margin: 20px 0px;
     font-size: 25px;
@@ -282,9 +336,6 @@ header li {
     background-color: #9792e4;
 }
 
-.bg-yellow {
-    background-color: #fdc15f;
-}
 
 .bg-black {
     background-color: #333333;
@@ -316,6 +367,10 @@ header li {
     color: #fff;
 }
 
+.color-yellow {
+    color: #fdc15f;
+}
+
 /* fine classi colori */
 /* query */
 @media screen and (min-width:480px) {
@@ -336,6 +391,16 @@ header li {
 
     #violet-section-2 .col {
         width: calc(100%/2 - 20px);
+    }
+
+    /* profiles */
+    #profiles .col {
+        flex-direction: row;
+    }
+
+    .text-profile {
+        text-align: left;
+        width: 60%;
     }
 
     #info .col:first-child {
@@ -371,16 +436,6 @@ header li {
         align-self: self-end;
         margin: 0 auto;
 
-    }
-
-    /* profile */
-    #profiles .col {
-        flex-direction: row;
-    }
-
-    .text-profile {
-        text-align: left;
-        width: 60%;
     }
 
     /* fine jumbo */
