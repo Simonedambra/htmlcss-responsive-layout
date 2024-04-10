@@ -49,6 +49,8 @@ header li {
 
 }
 
+
+
 .justify-content-center {
     display: flex;
     flex-direction: column;
@@ -73,7 +75,25 @@ header li {
 }
 
 /* violet section */
-.img-violet {}
+.img-violet {
+    background-image: url(../img/planning1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+
+
+}
+
+.img-violet2 {
+    background-image: url(../img/planning2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+}
+
+co
 
 /* fine classi di utility */
 .container {
@@ -213,6 +233,21 @@ header li {
         align-self: self-end;
         margin: 0 auto;
 
+    }
+
+    /* fine jumbo */
+    /* inizio violet saction */
+
+    #violet-section .col:nth-child(2) {
+        height: 400px;
+        width: 300px;
+        align-self: self-end;
+
+    }
+
+    .img-violet2 {
+        height: 150px;
+        width: 150px;
     }
 
     #violet-section .col {
