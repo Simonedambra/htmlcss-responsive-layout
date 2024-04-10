@@ -12,15 +12,15 @@
 <body>
     <!-- inizio header -->
     <header class="bg-blue">
-        <div class="container space-between">
-            <div class="logo">logo</div>
-            <div class="menu"><i class="fas fa-bars"></i></div>
-            <div class="menu-desktop">
+        <div class="container space-between align-items">
+            <div class="logo color-white font-45 mg15">logo</div>
+            <div class="menu color-white font-25 mg15"><i class="fas fa-bars"></i></div>
+            <div class="menu-desktop mg15">
                 <ul>
-                    <li>Planning</li>
-                    <li>Testimonials</li>
-                    <li>Features</li>
-                    <li>About Us</li>
+                    <li><a href="#">Planning</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About Us</a></li>
                     <li><button>Get Started</button></li>
                 </ul>
             </div>
@@ -29,7 +29,7 @@
     <!-- fine header -->
     <main>
         <!-- inizio container jumbo -->
-        <section id="jumbo">
+        <section id="jumbo" class="pd50">
             <div class="container flex-center">
                 <div class="col bg-lightblue border-20 d-flex">
                     <div class="container-text-img-jumbo">
@@ -50,6 +50,7 @@
                     <div class="icon-size mg15 color-blue justify-content-center"><i class="fas fa-file-code"></i>
                         <h2 class="color-blue font-25 mg15">Clean Code</h2>
                     </div>
+
                     <div class="container-text pd15-0">
                         <span class="color-lightblack font-20">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad
@@ -81,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col bg-lightblue border-20 justify-content-center">
-                    <div class="icon-size mg15 color-blue justify-content-center"><i class="fas fa-volume-off"></i>
+                    <div class="icon-size mg15 color-blue justify-content-center"><i class="fas fa-volume-high"></i>
                         <h2 class="color-blue font-25 mg15">Branding</h2>
                     </div>
                     <div class="container-text pd15-0">
@@ -96,14 +97,14 @@
         </section>
         <!-- fine container jumbo -->
         <!-- inizio section -->
-        <section id="violet-section" class="bg-lightviolet">
+        <section id="violet-section" class="bg-lightviolet pd50">
             <div class="container flex-center">
-                <div class="col bg-lightblue border-20 justify-content-center">
+                <div class="col border-20 justify-content-center">
                     <div class="img-violet"></div>
-                    <h1 class="color-blue font-25 mg15">Strategic Planning</h1>
+                    <h1 class="color-blue font-25 mg15 font-45 color-white">Strategic Planning</h1>
 
                     <div class="container-text pd15-0">
-                        <span class="color-lightblack font-20">
+                        <span class="color-lightblack font-20 color-white">
                             Egestas dui id ornare arcu odio. In tellus integer feugiat scelerisque varius morbi enim
                             nunc. Habitasse platea dictumst quisque sagittis. Interdum velit euismod in pellentesque
                             massa placerat duis. Quis viverra nibh cras pulvinar mattis.
@@ -111,9 +112,9 @@
                     </div>
 
                 </div>
-                <div class="col bg-lightblue border-20 justify-content-center">
+                <div class="col bg-white border-20 justify-content-center">
                     <div class="img-violet2"></div>
-                    <h2 class="color-blue font-25 mg15">Clean Code</h2>
+                    <h2 class="color-black font-25 mg15">App Developement</h2>
 
                     <div class="container-text pd15-0">
                         <span class="color-lightblack font-20">
@@ -122,6 +123,10 @@
                                 any interruption.
                             </em>
                         </span>
+                        <div class="container-small-icon justify-content-center">
+                            <span class="bg-lightviolet circle font-25 mg30"><i
+                                    class="fas fa-arrow-down-long"></i></span>
+                        </div>
                     </div>
 
                 </div>
@@ -129,93 +134,152 @@
         </section>
         <section id="profiles">
             <div class="container flex-center">
-                <div>
-                    <span></span>
-                    <h1></h1>
-                    <span></span>
+                <div class="text-profile">
+                    <span>TESTIMONIALS</span>
+                    <h2>We are committed expert partners</h2>
+                    <span>We place huge value on strong relationships and have seen the benefit they bring to our
+                        business. Customer feedback is vital in helping us to get it right.</span>
                 </div>
-                <div class="col bg-lightblue border-20 "></div>
-                <div class="col bg-lightblue border-20 "></div>
-                <div class="col bg-lightblue border-20"></div>
+                <div class="col bg-lightviolet border-20 justify-content-center">
+                    <div class="circle-1"></div>
+                    <div class="text-profile color-white">
+                        <span class="font-25"><i class="fa-solid fa-quote-left"></i>Vitae suscipit tellus mauris a diam
+                            maecenas sed
+                            enim ut. Mauris augue neque gravida in
+                            fermentum. Praesent semper feugiat nibh pulvinar proin.<i
+                                class="fas fa-quote-right"></i></span>
+                        <h2>NAT REYNOLDS</h2>
+                    </div>
+
+
+                </div>
+                <div class="col bg-lightviolet border-20 justify-content-center">
+                    <div class="circle-2"></div>
+                    <div class="text-profile color-white">
+                        <span class="font-25"><i class="fa-solid fa-quote-left"></i>Pharetra vel turpis nunc eget lorem.
+                            Quisque id diam
+                            vel quam elementum pulvinar etiam.
+                            Urna porttitor rhoncus dolor purus non enim praesent elementum.<i
+                                class="fas fa-quote-right"></i></span>
+                        <h2>CELIA ALMEDA</h2>
+                    </div>
+
+
+
+
+                </div>
+                <div class="col bg-lightviolet border-20 justify-content-center">
+
+                    <div class="circle-3"></div>
+                    <div class="text-profile color-white">
+                        <span class="font-25"><i class="fa-solid fa-quote-left"></i>Mauris augue neque gravida in
+                            fermentum. Praesent
+                            semper feugiat nibh sed pulvinar proin.
+                            Nibh nisl condimentum id venenatis a condimentum.<i class="fas fa-quote-right"></i> </span>
+                        <h2>BOB ROBERTS</h2>
+                    </div>
+                </div>
+
+
+            </div>
             </div>
         </section>
-        <section id="violet-section-2" class="bg-lightviolet">
+        <section id="violet-section-2" class="bg-lightviolet pd50">
+            <h2 class="text-center font-45 color-white pd15-0">Benefits of working with us </h2>
             <div class="container flex-center">
-                <div class="col bg-lightblue border-20 ">
+                <div class="col bg-white border-20 ">
                     <div class="container-text">
-                        <h2 class="color-blue font-25 mg15">Hight Quality</h2>
+                        <div class="icon-size mg15 color-violet "><i class="fas fa-0"></i><i class="fas fa-1"></i>
+                        </div>
+                        <h2 class="color-violet font-25 mg15">Hight Quality</h2>
                         <div>
                             <span class="color-lightblack font-20">
                                 Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in
                                 fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.
                             </span>
                         </div>
-                        <button class="mg15">more</button>
+                        <button class="mg15 violet-button">more</button>
 
                     </div>
                 </div>
-                <div class="col bg-lightblue border-20 ">
+                <div class="col bg-white border-20 ">
                     <div class="container-text">
-                        <h2 class="color-blue font-25 mg15">Creative Team</h2>
+                        <div class="icon-size mg15 color-violet "><i class="fas fa-0"></i><i class="fas fa-2"></i>
+                        </div>
+                        <h2 class="color-violet font-25 mg15">Creative Team</h2>
                         <div>
                             <span class="color-lightblack font-20">
-                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in
+                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida
+                                in
                                 fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.
                             </span>
                         </div>
-                        <button class="mg15">more</button>
+                        <button class="mg15 violet-button">more</button>
 
                     </div>
                 </div>
-                <div class="col bg-lightblue border-20">
+                <div class="col bg-white border-20">
                     <div class="container-text">
-                        <h2 class="color-blue font-25 mg15">Amazing Results</h2>
+                        <div class="icon-size mg15 color-violet "><i class="fas fa-0"></i><i class="fas fa-3"></i>
+                        </div>
+                        <h2 class="color-violet font-25 mg15">Amazing Results</h2>
                         <div>
                             <span class="color-lightblack font-20">
-                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in
+                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque
+                                gravida in
                                 fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.
                             </span>
                         </div>
-                        <button class="mg15">more</button>
+                        <button class="mg15 violet-button">more</button>
 
                     </div>
                 </div>
-                <div class="col bg-lightblue border-20">
+                <div class="col bg-white border-20">
                     <div class="container-text">
-                        <h2 class="color-blue font-25 mg15">Best Pricing</h2>
+                        <div class="icon-size mg15 color-violet "><i class="fas fa-0"></i><i class="fas fa-4"></i>
+                        </div>
+                        <h2 class="color-violet font-25 mg15">Best Pricing</h2>
                         <div>
                             <span class="color-lightblack font-20">
-                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in
+                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque
+                                gravida in
                                 fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.
                             </span>
                         </div>
-                        <button class="mg15">more</button>
+                        <button class="mg15 violet-button">more</button>
 
                     </div>
                 </div>
-                <div class="col bg-lightblue border-20">
+                <div class="col bg-white border-20">
                     <div class="container-text">
-                        <h2 class="color-blue font-25 mg15">Innovations</h2>
+                        <div class="icon-size mg15 color-violet "><i class="fas fa-0"></i><i class="fas fa-5"></i>
+                        </div>
+                        <h2 class="color-violet font-25 mg15">Innovations</h2>
                         <div>
                             <span class="color-lightblack font-20">
-                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in
+                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue
+                                neque gravida in
                                 fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.
                             </span>
                         </div>
-                        <button class="mg15">more</button>
+                        <button class="mg15 violet-button">more</button>
 
                     </div>
                 </div>
-                <div class="col bg-lightblue border-20 ">
+                <div class="col bg-white border-20 ">
                     <div class="container-text">
-                        <h2 class="color-blue font-25 mg15">24/7 Support</h2>
+                        <div class="icon-size mg15 color-violet "><i class="fas fa-0"></i><i class="fas fa-6"></i>
+                        </div>
+                        <h2 class="color-violet font-25 mg15">24/7 Support</h2>
                         <div>
                             <span class="color-lightblack font-20">
-                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in
-                                fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.
+                                Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris
+                                augue neque gravida in
+                                fermentum. Praesent semper feugiat nibh sed pulvinar proin id
+                                venenatis.
                             </span>
                         </div>
-                        <button class="mg15">more</button>
+                        <button class="mg15 violet-button">more</button>
 
                     </div>
                 </div>
@@ -223,21 +287,53 @@
         </section>
         <section id="info">
             <div class="container flex-center">
-                <div class="col bg-lightblue border-20 "></div>
-                <div class="col bg-lightblue border-20 "></div>
+                <div class="col bg-lightblue border-20">
+                    <h2 class="pd50 font-80 color-violet">About Us</h2>
+                    <div class="pd15-0">Sample text. Click to Egestas egestas fringilla phasellus faucibus scelerisque
+                        eleifend donec
+                        pretium vulputate. Pharetra magna ac placerat vestibulum. Quam lacus suspendisse faucibus
+                        interdum posuere lorem. Egestas tellus rutrum tellus pellentesque eu tincidunt. Neque vitae
+                        tempus quam pellentesque nec. Vel elit scelerisque mauris pellentesque pulvinar pellentesque
+                        habitant morbi. Interdum velit euismod in pellentesque massa placerat duis.</div>
+                    <div class="pd15-0">Quis viverra nibh cras pulvinar mattis. Ornare arcu dui vivamus arcu felis
+                        bibendum ut
+                        tristique. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio.
+                        Dignissim diam quis enim lobortis scelerisque. Tellus molestie nunc non blandit massa enim. the
+                        text box. Click again or double click to start editing the text.</div>
+
+                </div>
+                <div class="col bg-lightblue border-20 ">
+                    <div class="circle-4">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <h2 class="font-25 color-violet">I help companies tincidunt tortor aliquam nulla facilisi cras
+                        fermentum odio.</h2>
+                    <button class="violet-button-2">Find me on linkedin</button>
+
+                </div>
             </div>
         </section>
         <!-- fine section -->
     </main>
     <footer>
         <div class="container-footer flex-center bg-lightviolet">
-            <div class="container-small">
+            <div class="container-small justify-content-center color-white">
+                <span>get started</span>
+                <h2>Simple, Transparent pricing</h2>
+                <h2 class="font-80">It's Free!</h2>
+                <span>We're still in beta and we will be for awhile. As we add more functionality, we'll look into other
+                    plans with more controls.</span>
+                <button>Get Started</button>
+                <span>Copyright 2021 Boolean Classe XX. Privacy policy.</span>
 
             </div>
         </div>
         <div class="container-footer flex-center bg-black">
-            <div class="container-small">
-
+            <div class="container-small justify-content-center color-white">
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi maiores minima vitae vero nulla
+                    pariatur impedit!</div>
+                <div>Lorem ipsum scelerisque mauris pellentesque Boolean
+                    careers</div>
             </div>
         </div>
     </footer>

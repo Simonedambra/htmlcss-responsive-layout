@@ -12,10 +12,6 @@ header {
     background-color: #0084fd;
 }
 
-.logo {
-    padding: 10px 0px;
-}
-
 .menu-desktop {
     display: none;
 }
@@ -49,6 +45,11 @@ header li {
 
 }
 
+.align-items {
+    display: flex;
+    align-items: center;
+
+}
 
 
 .justify-content-center {
@@ -59,6 +60,15 @@ header li {
 
 .border-20 {
     border-radius: 20px;
+}
+
+.border-50 {
+    border-radius: 50px;
+}
+
+
+.text-center {
+    text-align: center;
 }
 
 .img-space {
@@ -72,6 +82,12 @@ header li {
 
 .icon-size {
     font-size: 70px;
+}
+
+.circle {
+    border-radius: 50%;
+    padding: 10px;
+
 }
 
 /* violet section */
@@ -93,7 +109,65 @@ header li {
     width: 250px;
 }
 
-co
+/* profiles  */
+.circle-1 {
+    background-image: url(../img/testimonial1.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.circle-2 {
+    background-image: url(../img/testimonial2.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.circle-3 {
+    background-image: url(../img/testimonial3.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.text-profile {
+    text-align: center;
+
+}
+
+/* sezione finale prima di footer */
+.circle-4 {
+    position: relative;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+
+}
+
+/* virgolette */
+.circle-4 i {
+    position: absolute;
+    right: 0;
+    color: #9792e4;
+    font-size: 60px;
+}
 
 /* fine classi di utility */
 .container {
@@ -109,11 +183,17 @@ co
 .container-small {
     height: 100%;
     width: 100%;
-    background-color: #0084fd;
+
+}
+
+.container-small-icon {
+    width: 100%;
+
+
 }
 
 .col {
-    width: 100%;
+    width: 80%;
     margin: 2rem 0rem;
     margin: 10px;
 }
@@ -123,10 +203,43 @@ co
     margin: 15px 0px;
 }
 
+.mg30 {
+    margin: 30px 0px 0px 0px;
+}
+
 /* classi di padding */
 .pd15-0 {
     padding: 0px 0px 15px 0px;
 }
+
+.pd50 {
+    padding: 50px 0px;
+}
+
+/* button */
+.violet-button {
+    background-color: #9792e4;
+    color: #fff;
+    padding: 10px 55px;
+    border: none;
+    margin: 20px 0px;
+    font-size: 25px;
+    border-radius: 50px;
+
+}
+
+.violet-button-2 {
+    background-color: #9792e4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin: 20px 0px;
+    font-size: 25px;
+    border-radius: 50px;
+
+}
+
+
 
 /* classi di text */
 .container-text-img-jumbo {
@@ -146,6 +259,14 @@ co
 
 .font-20 {
     font-size: 20px;
+}
+
+.font-45 {
+    font-size: 45px;
+}
+
+.font-80 {
+    font-size: 80px;
 }
 
 /* classi di colore */
@@ -169,13 +290,30 @@ co
     background-color: #333333;
 }
 
+.bg-white {
+    background-color: #fff;
+}
+
 /* text color */
+.color-black {
+    color: black;
+}
+
 .color-blue {
     color: #0084fd;
 }
 
 .color-lightblack {
     color: #5a6e7f;
+}
+
+.color-violet {
+    color: #9792e4;
+
+}
+
+.color-white {
+    color: #fff;
 }
 
 /* fine classi colori */
@@ -235,11 +373,24 @@ co
 
     }
 
+    /* profile */
+    #profiles .col {
+        flex-direction: row;
+    }
+
+    .text-profile {
+        text-align: left;
+        width: 60%;
+    }
+
     /* fine jumbo */
     /* inizio violet saction */
+    #violet-section .col:first-child {
+        height: 600px;
+    }
 
     #violet-section .col:nth-child(2) {
-        height: 400px;
+        height: 450px;
         width: 300px;
         align-self: self-end;
 
