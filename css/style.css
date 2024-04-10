@@ -12,8 +12,22 @@ header {
     background-color: #0084fd;
 }
 
+.logo {
+    padding: 10px 0px;
+}
+
 .menu-desktop {
     display: none;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px 0px;
+}
+
+header li {
+    margin: 0px 10px;
 }
 
 /* inizio classi di utility */
@@ -58,6 +72,9 @@ header {
     font-size: 70px;
 }
 
+/* violet section */
+.img-violet {}
+
 /* fine classi di utility */
 .container {
     max-width: 1200px;
@@ -92,9 +109,14 @@ header {
 }
 
 /* classi di text */
+.container-text-img-jumbo {
+    width: 100%;
+    padding: 20px;
+}
+
 .container-text {
     width: 100%;
-    padding: 0px 10px;
+    padding: 20px;
 }
 
 /* classi di font/font-size */
@@ -181,7 +203,7 @@ header {
     }
 
     /* jumbo */
-    .container-text {
+    .container-text-img-jumbo {
         width: calc(100%/2);
     }
 
